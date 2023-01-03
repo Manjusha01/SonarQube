@@ -6,8 +6,8 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-	 <name>TestSI</name>
-        		<name>TestSI</name>
+	<name>TestSI</name>
+	<name>TestSI</name>
         <script><![CDATA[var TestSI = Class.create();
 TestSI.prototype = {
     initialize: function() {
