@@ -13,7 +13,8 @@ TestSI.prototype = {
     },
 	newFunction: function(){
 		gs.log("Hello");
-		var x;
+		var x='zomato';
+		if(x=='a'){  }		else if(x == 'b'){		}		else if(x == 'c'){		}		else{			if(x=='a'){			}			else if(x == 'b'){			}			else if(x == 'c'){			}			else{				gs.log("Do Sometthing");			}		};
 	},
 
     type: 'TestSI'
