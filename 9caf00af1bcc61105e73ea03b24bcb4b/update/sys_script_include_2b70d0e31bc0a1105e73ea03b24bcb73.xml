@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.TestSI</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TestSI</name>
+        <script><![CDATA[var TestSI = Class.create();
+TestSI.prototype = {
+    initialize: function() {
+    },
+	newFunction: function(){
+		gs.log("Hello");
+		var x;
+	},
+
+    type: 'TestSI'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-03 10:17:29</sys_created_on>
+        <sys_id>2b70d0e31bc0a1105e73ea03b24bcb73</sys_id>
+        <sys_name>TestSI</sys_name>
+        <sys_package display_value="SonarQube" source="9caf00af1bcc61105e73ea03b24bcb4b">9caf00af1bcc61105e73ea03b24bcb4b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SonarQube">9caf00af1bcc61105e73ea03b24bcb4b</sys_scope>
+        <sys_update_name>sys_script_include_2b70d0e31bc0a1105e73ea03b24bcb73</sys_update_name>
+    </sys_script_include>
+</record_update>
